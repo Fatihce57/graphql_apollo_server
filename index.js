@@ -1,8 +1,8 @@
 const express = require('express');
-const { ApolloServer} = require('apollo-server-express');
+const { ApolloServer } = require('apollo-server-express');
 const mongoose = require('mongoose');
 const typeDefs = require('./typeDefs');
-const resolvers= require('./resolvers');
+const resolvers = require('./resolvers');
 
 //Database Connection
 const URL = "mongodb+srv://fatih:Fatih.1978-@cluster0.rafas.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

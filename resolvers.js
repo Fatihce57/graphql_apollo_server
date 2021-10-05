@@ -30,7 +30,7 @@ const resolvers = {
             return post;
         },
         deletePost: async (parent, args, context, info) => {
-            const{id} = args
+            const { id } = args
             await Post.findByIdAndDelete(id);
             return "Deleted";
         },
