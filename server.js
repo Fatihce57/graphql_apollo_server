@@ -20,7 +20,7 @@ const startServer = async () => {
     });
     await apolloServer.start();
     apolloServer.applyMiddleware({ app: app });
-    app.listen(5000, () => console.log("Server UP & Running *5050"));
+    app.listen(5000, () => console.log("Server UP & Running *5000"));
 };
 
 startServer();

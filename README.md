@@ -12,3 +12,6 @@ https://www.apollographql.com/docs/apollo-server/getting-started/
 // "npm install -D nodemon" ile NODEMON PAKETINI YÜKLÜYORUZ
 // TERMINALDE "npm start" YADA "node server.js" YERINE "npx nodemon server.js" YAZIYORUZ. ARTIK SÜREKLI BILGILER GÜNCELLENECEKTIR
 // YADA package.json ICERIASINE "server":"nodemon server.js", YAZARSAK ARTIK TERMINALDE "npm run server" ILE DE CALISACAKTIR
+
+### QUELLE
+https://www.youtube.com/watch?v=vGDkD_bs8-I
